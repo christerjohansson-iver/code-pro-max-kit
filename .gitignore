@@ -30,3 +30,6 @@ coverage/
 
 # Local environment files (secrets)
 .env
+
+# Local session state
+.omo/
