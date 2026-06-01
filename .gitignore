@@ -6,3 +6,27 @@ node_modules/
 .claude/hooks/.logs/
 .codex/hooks/.logs/
 .codex/statusline.cjs
+
+# Build artifacts
+__pycache__/
+*.pyc
+*.pyo
+dist/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Test / coverage
+coverage/
+.cache/
+
+# Local environment files (secrets)
+.env
